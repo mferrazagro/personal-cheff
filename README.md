@@ -4,7 +4,7 @@
 ![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
 ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-<img src="exemplo-image.png" alt="exemplo imagem">
+<img src="example.jpeg" alt="exemplo Python">
 >Uma aplicação web de receitas chamada PersonalCheff desenvolvida durante o curso de Python no Senac de Americana. A aplicação listará receitas e cliecando em cada nome de receita você pode ver a receita completa.
 
 ### Lista de tarefas
@@ -12,7 +12,12 @@ Segue a lista de tarefas a serem desenvolvidas no projeto:
 - [X] Pré-requisitos
     - [X] Instalar o Python
     - [X] Instalar Visual Studio Code
-- [ ] Criar e ativar o ambiente virtual
+```
+para ativar ambiente virtual:
+python -m venv.\venv\
+venv\Scripts\activate
+```
+- [X] Criar e ativar o ambiente virtual
 - [ ] Instalar o Django
 - [ ] Criar o projeto PersonalCheff
 - [ ] Subir o servidor e testar o projeto
