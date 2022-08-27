@@ -18,8 +18,18 @@ python -m venv.\venv\
 venv\Scripts\activate
 ```
 - [X] Criar e ativar o ambiente virtual
-- [ ] Instalar o Django
-- [ ] Criar o projeto PersonalCheff
+- [X] Instalar o Django
+```
+para instalar o DJANGO
+python -m pip install django==3.2
+```
+- [X] Criar o projeto PersonalCheff
+```
+django-admin.py help exibe os principais comandos do Django
+
+Para Startar o projeto:
+django-admin.py startproject 'nomedoprojeto'
+```
 - [ ] Subir o servidor e testar o projeto
 - [ ] Alterar o idioma do projeto para `pt-br`
 - [ ] Alterar o timezone do projeto para `America/Sao_Paulo`
