@@ -32,6 +32,14 @@ Para Startar o projeto:
 django-admin.py startproject 'nomedoprojeto'
 ```
 - [ ] Subir o servidor e testar o projeto
+```
+abrir a pasta cd 'nomedapasta
+
+Subir o servidor e executar a aplicação:
+python manage.py runserver
+
+```
+
 - [ ] Alterar o idioma do projeto para `pt-br`
 - [ ] Alterar o timezone do projeto para `America/Sao_Paulo`
 - [ ] Criar o app receitas
