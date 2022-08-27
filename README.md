@@ -25,7 +25,8 @@ python -m pip install django==3.2
 ```
 - [X] Criar o projeto PersonalCheff
 ```
-django-admin.py help exibe os principais comandos do Django
+Exibir os principais comandos do Django:
+django-admin.py help 
 
 Para Startar o projeto:
 django-admin.py startproject 'nomedoprojeto'
