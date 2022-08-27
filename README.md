@@ -31,7 +31,7 @@ django-admin.py help
 Para Startar o projeto:
 django-admin.py startproject 'nomedoprojeto'
 ```
-- [ ] Subir o servidor e testar o projeto
+- [X] Subir o servidor e testar o projeto
 ```
 abrir a pasta cd 'nomedapasta
 
