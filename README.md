@@ -60,8 +60,9 @@ INSTALLED_APPS
 ]
 ```
 - [X] Configurar a rota inicial (index)
-# Dentro da pasta receita(app) criar o arquivo urls.py
-# No arquivo urls.py
+    Dentro da pasta receita(app) criar o arquivo urls.py
+    No arquivo urls.py
+    
     from django.urls import path
     from . import views
 
@@ -69,7 +70,7 @@ INSTALLED_APPS
         path('', views.index, name='index')
     ]
 - [X] Criar a view para a rota inicial
-# Dentro da pasta receitas(app) abrir o arquivo views.py
+    Dentro da pasta receitas(app) abrir o arquivo views.py
     ```
     from django.shortcuts import render
     from django.http import HttpResponse
