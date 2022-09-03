@@ -96,7 +96,13 @@ urlpatterns = [
     path('',include('receitas.urls')),
 ]
 ```
-- [ ] Criar o arquivo index
+- [X] Criar o arquivo index
+ - Dentro da pasta receitas (app), crie a pasta `templates`
+ - Dentro da pasta `templates` criar `index.html`
+ - No arquivo `views.py` que está dentro da pasta do app faça a seguinte alteração de código:
+ ```
+ python
+ ```
  
  ## 📝 Licença
 Esse projeto está sob licença. Veja o arquivo [LICENÇA](LICENSE.md) para mais detalhes.
