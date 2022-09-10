@@ -6,3 +6,11 @@ def index(request):
 def sucodelaranja(request):
     return render (request, 'sucodelaranja.html')
 
+def sucodelimao(request):
+    return render(request, 'sucodelimao.html')
+
+def sucodeabacaxi(request):
+    return render (request, 'sucodeabacaxi.html')
+
+def sucodemorango(request):
+    return render(request, 'sucodemorango.html')
