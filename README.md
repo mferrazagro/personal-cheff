@@ -114,8 +114,20 @@ urlpatterns = [
     'DIRS': [os.path.join(BASE_DIR, 'receitas/templates')],
     ```
     
-    - 
- - [ ] Utilizando links
+    - No final do arquivo, após a linha ´STATIC_URL´, insira o seguinte código:
+    ´´´
+    STATIC_ROOT = os.path.join(BASE_DIR, 'static)
+    STATICFILES_DIRS = [
+        os.path.join(BASE_DIR, 'PersonalCheffProj/static')
+    ] 
+    ```
+    - `STATIC_URL`: é a configuração da rota através do qual os arquivos estáticos seram servidos
+    - `STATIC_ROOT`: configuração da pasta de saída (destino) dos arquivos estáticos
+    - `STATICFILES_DIRS`: configuração da(s) pasta de origem dos arquivos estáticos
+    - após realizar essas configurações execute, no terminal o comando:
+    `python manage.py collectstatic` 
+    
+    - [ ] Utilizando links
  
  []Criando o base.html
  
