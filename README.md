@@ -126,8 +126,10 @@ urlpatterns = [
     - `STATICFILES_DIRS`: configuração da(s) pasta de origem dos arquivos estáticos
     - após realizar essas configurações execute, no terminal o comando:
     `python manage.py collectstatic` 
+    - na primeira linha do arquivo `index.html` insira `{% load static %}. Esse comando deve ser usado em todos os arquivos em que você for utilizar arquivos estáticos.
+    - insira uma imagem usando o comando <img src="{% static 'logo.png' %}">`. Sempre que for utilizar um arquivo estático você deve utilizar {% static 'nome-do-arquivo' %}
     
-    - [ ] Utilizando links
+- [ ] Utilizando links
  
  []Criando o base.html
  

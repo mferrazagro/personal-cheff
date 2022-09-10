@@ -1,0 +1,25 @@
+body{
+    background-color: #cacaca;
+    color: #181818;
+    font-family: 'chiller';
+    text-align: center;
+    font-size: large;
+}
+
+
+.imagem-logo{
+    width: 200px;
+    
+    
+}
+
+.tabela-receitas{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family:cursive
+}
+
+.logo-copo{
+    height: 40px;
+}
