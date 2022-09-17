@@ -139,6 +139,7 @@ urlpatterns = [
     - nesse arquivo deve conter o `{% load static %}`.
     - nesse arquivo, no local onde será carregado o conteúdo das outras páginas, deve existir os delimitadores `{% block content %}` e `{% endblock %}`.
     - o código do `base.html` será algo parecido com:
+    
     ```python
     {% load static %} 
 <!DOCTYPE html>
@@ -153,19 +154,22 @@ urlpatterns = [
 </head>
 <body>
     {% block content %}
-
     {% endblock %} 
 
 </body>
-</html>
+</html> 
+    ```
 
-``` 
+- [x] Separando em partials
+    - criar uma pasta chamada `partials` dentro da pasta `templates`
+    - dentro da pasta `partials` crie os arquivos que serão **partes globais** utilizadas no seu projeto como `header.html`, `footer.html`, `menu.html`, `side-bar.html`, `banner.html`, etc. No nosso exemplo criamos as partials `header.html` e `footer.html`
+    - insira em cada um dos arquivos partials seus códigos correspondentes. Exemplo: no arquivo `header.html` eu insiro todo o conteúdo que eu quero que seja apresentado no cabeçalho da minha aplicação. Não se esqueça do comando `{% load static %}`.
+    - para incluir as partials nos arquivos de destino utilize o comando `include` da seguinte maneira: 
+                                ``` {% include 'partials/header.html' %}```
 
-
+    
  
-- [ ]Separando em partials
- 
- []Renderizando dados dinamicamente
+- [ ]Renderizando dados dinamicamente
  
  []Criando um dicionario com as receitas
  

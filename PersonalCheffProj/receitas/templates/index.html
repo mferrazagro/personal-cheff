@@ -1,14 +1,7 @@
 {% extends 'base.html' %}
 {% load static %}
 {% block content %}
-
-    <h1>
-        <img src="{% static 'cook-logo.png' %}"
-        class="imagem-logo">
-    </h1>
-    
-    <h1>PersonalCheff</h1>
-    <h1>Seu site de receitas</h1>
+{% include 'partials/header.html' %}
 
 <table border="5"
 class="tabela-receitas"> 
@@ -43,4 +36,6 @@ class="tabela-receitas">
     <td><a href="{% url 'sucodemorango' %}"> Ver receita completa </a></td>
 </table>
     </table>
+
+{% include 'partials/footer.html' %}
 {% endblock %}
