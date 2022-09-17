@@ -30,26 +30,26 @@ class="tabela-receitas">
         <td> <img src="{% static 'logo-copo.png' %}"
             class="logo-copo">Suco de Laranja</td>
         <td><a href= https://www.youtube.com/watch?v=Nn9140bDPnc>Ver vídeo da receita</a></td>
-        <td><a href="sucodelaranja"> Ver receita completa </a></td>
+        <td><a href="{% url 'sucodelaranja' %}"> Ver receita completa </a></td>
     </tr>
     <tr>
         <td> <img src="{% static 'logo-copo.png' %}"
             class="logo-copo">Suco de Limão</td>
         <td><a href=https://www.youtube.com/watch?v=f0H3xHf06cE >Ver vídeo da receita</a></td>
-        <td><a href="sucodelimao"> Ver receita completa </a></td>
+        <td><a href="{% url 'sucodelimao' %}"> Ver receita completa </a></td>
     </tr>
     
     <tr>
     <td> <img src="{% static 'logo-copo.png' %}"
         class="logo-copo">Suco de Abacaxi</td>
     <td><a href =https://www.youtube.com/watch?v=jLmFRuPv2eo >Ver vídeo da receita</a></td>
-    <td><a href="sucodeabacaxi"> Ver receita completa </a></td>
+    <td><a href="{% url 'sucodeabacaxi' %}">Ver receita completa </a></td>
     
     <tr>
     <td> <img src="{% static 'logo-copo.png' %}"
         class="logo-copo">Suco de Morango</td>
     <td><a href =https://www.youtube.com/watch?v=nBm1MAObCk8 >Ver vídeo da receita</a></td>
-    <td><a href="sucodemorango"> Ver receita completa </a></td>
+    <td><a href="{% url 'sucodemorango' %}"> Ver receita completa </a></td>
 </table>
     </table>
 </body>
