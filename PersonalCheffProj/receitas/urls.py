@@ -8,4 +8,5 @@ urlpatterns = [
     path('sucodelimao', views.sucodelimao, name='sucodelimao'),
     path('sucodeabacaxi', views.sucodeabacaxi, name='sucodeabacaxi'),
     path('sucodemorango', views.sucodemorango, name='sucodemorango'),
+    path('contato', views.contato, name='contato'),
     ]

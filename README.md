@@ -166,8 +166,20 @@ urlpatterns = [
     - insira em cada um dos arquivos partials seus códigos correspondentes. Exemplo: no arquivo `header.html` eu insiro todo o conteúdo que eu quero que seja apresentado no cabeçalho da minha aplicação. Não se esqueça do comando `{% load static %}`.
     - para incluir as partials nos arquivos de destino utilize o comando `include` da seguinte maneira: 
                                 ``` {% include 'partials/header.html' %}```
+                                **BASE DE COMEÇO**
+    ```
+    static/
+        style.css
+        app.js
+        img/
 
-    
+    templates/
+        index.html
+        partials/
+            header.html
+            menu.html
+            footer.html
+    ```
  
 - [ ]Renderizando dados dinamicamente
  

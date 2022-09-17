@@ -14,3 +14,6 @@ def sucodeabacaxi(request):
 
 def sucodemorango(request):
     return render(request, 'sucodemorango.html')
+
+def contato(request):
+    return render(request, 'contato.html')
